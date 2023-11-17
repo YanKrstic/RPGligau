@@ -45,17 +45,6 @@ namespace PPGligau.TodosPersonagens.Classes
             }
             
         }
-
-        /*public T CompareTo<T>(ClasseBase other, T objComp)
-        {
-            if (!(other is ClasseBase))
-            {
-                throw new ArgumentException("aa");
-            }
-            return objComp.CompareTo(other.objComp);
-        }
-        */
-
         public ClasseBase(int vida,int vidaMax, int danon, int danoc,int regenMin,int regenMax, int chanceDano ,int id)
         {
             this.vida = vida;
@@ -70,6 +59,16 @@ namespace PPGligau.TodosPersonagens.Classes
         }
 
         public ClasseBase() { }
+
+        /*public T CompareTo<T>(ClasseBase other, T objComp)
+        {
+            if (!(other is ClasseBase))
+            {
+                throw new ArgumentException("aa");
+            }
+            return objComp.CompareTo(other.objComp);
+        }
+        */
 
     }
 }

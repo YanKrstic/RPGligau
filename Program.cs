@@ -12,8 +12,15 @@ namespace RPGligau
     {
         static void Main(string[] args)
         {
+            ClasseBase tes = new Cavaleiro();
+            
+            tes.FuncTeste();
+
+
             Personagem ini = new Personagem();
-            ini.classe = new Arqueiro();
+            ini.classe = new Cavaleiro();
+         
+          
 
             Personagem per = new Personagem();
 
@@ -193,10 +200,10 @@ namespace RPGligau
                 Console.WriteLine();
 
 
-                per.iventario.Add(new Itens("teste", ItensRaridade.raro, ItensFuncao.defesa));
+                /*per.iventario.Add(new Itens("teste", ItensRaridade.raro, ItensFuncao.defesa));
                 per.iventario.Add(new Itens("machado sla", ItensRaridade.lixo, ItensFuncao.defesa));
                 per.iventario.Add(new Itens("teste2", ItensRaridade.impossivel, ItensFuncao.ataque));
-                per.iventario.Add(new Itens("teste3", ItensRaridade.raro, ItensFuncao.chanceAtaque));
+                per.iventario.Add(new Itens("teste3", ItensRaridade.raro, ItensFuncao.chanceAtaque));*/
 
                 Console.WriteLine();
             }

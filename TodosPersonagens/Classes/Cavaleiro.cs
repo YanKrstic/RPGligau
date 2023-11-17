@@ -15,8 +15,14 @@ namespace PPGligau.TodosPersonagens.Classes
            int regenMin = 15,
            int regenMax = 30,
            int chanceDano = 1
-
+          
            ) : base(vida,vidaMax, danon, danoc,regenMin,regenMax, chanceDano, id) { }
+        public Cavaleiro() { }
+
+        public void FuncTeste()
+        {
+            Console.WriteLine("foi");
+        }
 
 
     }

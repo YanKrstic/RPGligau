@@ -18,6 +18,8 @@ namespace PPGligau.TodosPersonagens.Classes
 
            ) : base(vida,vidaMax, danon, danoc,regenMin,regenMax, chanceDano, id) { }
 
+        public Arqueiro() { }
+
 
     }
 }
