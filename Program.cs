@@ -13,19 +13,14 @@ namespace RPGligau
         static void Main(string[] args)
         {
             ClasseBase tes = new Cavaleiro();
-            
-            tes.FuncTeste();
-
-
+            tes.FuncCavaleiro1();
+           
+            // Personagem inimigo
             Personagem ini = new Personagem();
             ini.classe = new Cavaleiro();
          
-          
-
+            // personagem principal
             Personagem per = new Personagem();
-
-            //Personagem per2 = new Personagem();
-            //per2.classe = new Cavaleiro();
 
             // verificando/criando as pastas
 
@@ -210,7 +205,8 @@ namespace RPGligau
             //Console.Clear();
             // SalvarPersonagem(per)
 
-            // testes
+            // testes ----------
+
             Console.WriteLine(per.ToString());
             Console.WriteLine();
 

@@ -21,7 +21,7 @@ namespace PPGligau.TodosPersonagens.Classes
         public int ValorAtaque()
         {
             Random r = new Random();
-            int a = r.Next(1, chanceDano+1);
+            int a = r.Next(1, chanceDano + 1);
 
             if (a == 1) { return danoc; }
 
@@ -43,9 +43,9 @@ namespace PPGligau.TodosPersonagens.Classes
             {
                 vida = vida - atk;
             }
-            
+
         }
-        public ClasseBase(int vida,int vidaMax, int danon, int danoc,int regenMin,int regenMax, int chanceDano ,int id)
+        public ClasseBase(int vida, int vidaMax, int danon, int danoc, int regenMin, int regenMax, int chanceDano, int id)
         {
             this.vida = vida;
             this.vidaMax = vidaMax;
@@ -69,6 +69,10 @@ namespace PPGligau.TodosPersonagens.Classes
             return objComp.CompareTo(other.objComp);
         }
         */
+        public virtual void FuncCavaleiro1()
+        {
+            throw new ArgumentException("funcao executada na classe base");
+        }
 
     }
 }

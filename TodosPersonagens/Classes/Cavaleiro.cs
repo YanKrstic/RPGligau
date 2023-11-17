@@ -19,7 +19,7 @@ namespace PPGligau.TodosPersonagens.Classes
            ) : base(vida,vidaMax, danon, danoc,regenMin,regenMax, chanceDano, id) { }
         public Cavaleiro() { }
 
-        public void FuncTeste()
+        public override void FuncCavaleiro1()
         {
             Console.WriteLine("foiii");
         }
