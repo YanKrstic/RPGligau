@@ -21,7 +21,7 @@ namespace PPGligau.TodosPersonagens.Classes
 
         public void FuncTeste()
         {
-            Console.WriteLine("foi");
+            Console.WriteLine("foiii");
         }
 
 
